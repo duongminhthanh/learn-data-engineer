@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Environments (uv)
+.venv/
+.uv/
+
+# Data (Dành cho Data Engineer)
+# Bạn nên ignore các file dữ liệu nặng hoặc kết quả chạy pipeline
+*.parquet
+*.csv
+*.json
+!metadata.json # Ngoại trừ các file config nhỏ
